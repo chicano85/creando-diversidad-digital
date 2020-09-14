@@ -7,11 +7,14 @@
   list-style: none;
   text-decoration: none;
 }
+body {
+  font-family: "Rubik";
+}
 
 a {
   color: #4a4a4a;
-  font-family: "Rubik";
   font-size: 16px;
+  text-transform: uppercase;
 }
 
 /* header */
@@ -86,5 +89,6 @@ a {
 
   .title {
     font-size: 40px;
+    text-transform: capitalize;
   }
 }
